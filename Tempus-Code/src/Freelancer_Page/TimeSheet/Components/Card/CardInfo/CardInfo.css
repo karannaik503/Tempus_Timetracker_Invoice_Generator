@@ -1,0 +1,124 @@
+.cardinfo-fTimeSheet {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-width: 550px;
+  width: fit-content;
+  max-width: 650px;
+  height: fit-content;
+}
+
+.cardinfo_box-fTimeSheet {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardinfo_box_title-fTimeSheet {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.cardinfo_box_title-fTimeSheet p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.cardinfo_box_title-fTimeSheet svg {
+  height: 18px;
+  width: 18px;
+}
+
+.cardinfo_box_labels-fTimeSheet {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cardinfo_box_labels-fTimeSheet label {
+  border-radius: 40px;
+  background-color: gray;
+  color: #fff;
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cardinfo_box_labels-fTimeSheet label svg {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+}
+
+.cardinfo_box-fTimeSheet ul {
+  display: flex;
+  gap: 15px;
+  margin-left: 20px;
+}
+.cardinfo_box-fTimeSheet ul li {
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.cardinfo_box-fTimeSheet ul .li_active {
+  box-shadow: 0 0 0 3px yellow;
+}
+
+.cardinfo_box_progress-bar-fTimeSheet {
+  width: 100%;
+  border-radius: 30px;
+  height: 10px;
+  border: 1px solid #ccc;
+}
+
+.cardinfo_box_progress-fTimeSheet {
+  height: 100%;
+  border-radius: 30px;
+  background-color: skyblue;
+  width: 0;
+  transition: 200ms;
+}
+
+.cardinfo_box_task_list-fTimeSheet {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cardinfo_box_task_checkbox-fTimeSheet {
+  display: flex;
+  gap: 10px;
+}
+
+.cardinfo_box_task_checkbox-fTimeSheet input,
+.cardinfo_box_task_checkbox-fTimeSheet svg {
+  height: 18px;
+  width: 18px;
+  outline: none;
+  cursor: pointer;
+}
+
+.cardinfo_box_task_checkbox-fTimeSheet p {
+  flex: 1;
+  line-height: 18px;
+}
+
+.cardinfo_box_task_checkbox-fTimeSheet .completed {
+  text-decoration-line: line-through;
+}
+
+.cardinfo_box-fTimeSheet input[type="date"] {
+  width: fit-content;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  padding: 10px;
+}

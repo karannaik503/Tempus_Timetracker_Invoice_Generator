@@ -1,0 +1,66 @@
+.editable-fTimeSheet {
+  width: 100%;
+}
+
+.editable_display-fTimeSheet {
+  padding: 6px 12px;
+  border-radius: 3px;
+  background: linear-gradient(to right, #194CA3, #5c31e6);
+  color: #ffffff;
+  cursor: pointer;
+  width: fit-content;
+  transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+}
+
+.editable_display-fTimeSheet:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.957);
+}
+
+.editable_display-fTimeSheet:active{
+  opacity: 0.8;
+}
+
+.editable_edit-fTimeSheet {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.editable_edit-fTimeSheet input {
+  border: 2px solid #0079bf;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.editable_edit_footer-fTimeSheet {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.editable_edit_footer-fTimeSheet button {
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  background: linear-gradient(to right, #194CA3, #5c31e6);
+  color: #fff;
+  border: none;
+  transition: 100ms ease;
+  padding: 10px;
+}
+.editable_edit_footer-fTimeSheet button:hover {
+  opacity: 0.8;
+}
+
+.editable_edit_footer-fTimeSheet button:active {
+  transform: translateY(2px);
+}
+
+.editable_edit_footer-fTimeSheet .closeIcon {
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+}

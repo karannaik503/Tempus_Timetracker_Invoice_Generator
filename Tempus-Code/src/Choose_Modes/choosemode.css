@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  .navbar-modes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 10;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background: linear-gradient(to right, #194CA3, #5c31e6);
+    height: 80px;
+    box-shadow: 0px 2px 5px rgba(57, 57, 57, 0.832);
+    width: 100%;
+    gap: 1000px;
+  }
+  
+  .left-section-modes{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+  
+  .logo-modes{
+    max-width: 100%;
+    cursor: pointer;
+  }
+  
+  .left-section-modes>a>h2{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+  }
+  
+  .left-section-modes>a{
+    text-decoration: none;
+  }
+  
+  .right-section-modes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    padding-top: 0px;
+  }
+  
+  .nav-list-modes{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    list-style: none;
+    justify-content: space-between;
+  }
+  
+  .nav-item-modes>a{
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.15s;
+    color: white;
+  }
+  
+  .nav-item-modes>a:hover{
+    color: #fe6811;
+  }
+  
+  
+  .nav-item-modes>a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ff5e00;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: width 0.15s;
+  }
+  
+  .nav-item-modes>a:hover::after{
+    width: 100%;
+  }
+  
+  .profile-container-modes{
+    max-width: 55%;
+  }
+  
+  .profile-icon-modes{
+    width: 55%;
+    max-width: 55%;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: opacity 0.2s, box-shadow 0.2s;
+  }
+  
+  .profile-icon-modes:hover{
+    box-shadow: 1px 1px 5px #ffffff;
+  }
+  
+  .profile-icon-modes:active{
+    opacity: 0.8;
+  }
+  
+  
+  
+  .hero-modes{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    max-width: 100vw;
+    margin-bottom: 30px;
+  }
+  
+  .choose-mode-modes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 200px;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width:100vw;
+  
+  }
+  
+  .mode-flex-modes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mode-flex-modes{
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #580000;
+  }
+  
+  .mode-flex-modes>p>span{
+    font-size: 50px;
+    font-family:sans-serif;
+    color: #e44805;
+  }
+  
+  .mode-modes{
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .mode-img-modes{
+    width: 100%;
+    border-radius: 35px;
+    display: block;
+    transition: transform 0.5s;
+  }
+  
+  .layer-modes{
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(rgba(0, 0, 0, 0.454), #6129fa);
+    border-radius: 35px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    transition: height 0.5s;
+  }
+  
+  .link-modes{
+    width: 20%;
+    margin-right: 70px;
+    border-radius: 50px;
+  }
+  
+  .layer-modes>p{
+    width: 300px;
+    font-size: 25px;
+    margin-right: 75px;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .mode-modes:hover img{
+    transform: scale(1.1);
+  }
+  
+  .mode-modes:hover .layer-modes{
+    height: 100%;
+  } 
+  
+  #footer-modes{
+    background-color: #1C1C1C;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;        
+    gap: 100px;
+    padding: 0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ;
+  }
+  
+  .contact-info-modes{
+    display:flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+  
+  .contact-info-modes>h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info-modes>h4{
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+  
+  .contact-info-modes>p{
+    margin-bottom: 30px;
+    margin-bottom: 18px;
+  }
+  
+  .right-footer-modes{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+  }
+  
+  .footer-logo-modes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+  }
+  
+  .footer-logo-left-modes{
+    width: 200px;
+    border-radius: 300px;
+  }
+  
+  .footer-logo-modes>h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: antiquewhite;
+  }
+  
+  .social-links-modes{
+    margin-bottom: 30px;
+  }
+  
+  .social-icon-modes{
+    width: 50px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 50px;
+    transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+  }
+  
+  .social-icon-modes:hover{
+    transform: translateY(-3px);
+    box-shadow: 0px 1px 5px rgb(255, 255, 255);
+  }
+  
+  .social-icon-modes:active{
+    opacity: 0.8;
+  }
+  
+  .copyright-modes{
+    font-size: 15px;
+    margin-right: 150px;
+  }

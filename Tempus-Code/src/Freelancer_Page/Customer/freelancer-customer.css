@@ -1,0 +1,498 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar-fEmployer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: fixed;
+  justify-content: space-between;
+  z-index: 10;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background: linear-gradient(to right, #194CA3, #5c31e6);
+  height: 80px;
+  box-shadow: 0px 2px 5px rgba(57, 57, 57, 0.832);
+  width: 100%;
+  gap: 1000px;
+}
+
+.left-section-fEmployer{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.logo-fEmployer{
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.left-section-fEmployer>a>h2{
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+}
+
+.left-section-fEmployer>a{
+  text-decoration: none;
+}
+
+.right-section-fEmployer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  padding-top: 20px;
+}
+
+.nav-list-fEmployer{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.nav-item-fEmployer>a{
+  font-size: 18px;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.15s;
+  color: white;
+}
+
+.nav-item-fEmployer>a:hover{
+  color: #fe6811;
+}
+
+
+.nav-item-fEmployer>a::after{
+  content: '';
+  width: 0%;
+  height: 3px;
+  background: #ff5e00;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: width 0.15s;
+}
+
+.nav-item-fEmployer>a:hover::after{
+  width: 100%;
+}
+
+.profile-container-fEmployer{
+  max-width: 55%;
+}
+
+.profile-icon-fEmployer{
+  width: 55%;
+  max-width: 55%;
+  margin-bottom: 12px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: opacity 0.2s, box-shadow 0.2s;
+}
+
+.profile-icon-fEmployer:hover{
+  box-shadow: 1px 1px 5px #ffffff;
+}
+
+.profile-icon-fEmployer:active{
+  opacity: 0.8;
+}
+
+#footer-fEmployer{
+  background-color: #1C1C1C;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: space-between;        
+  gap: 100px;
+  padding: 0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ;
+}
+
+.contact-info-fEmployer{
+  display:flex;
+  flex-direction: column;
+  gap: 0px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.contact-info-fEmployer>h2{
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.contact-info-fEmployer>h4{
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.contact-info-fEmployer>p{
+  margin-bottom: 30px;
+  margin-bottom: 18px;
+}
+
+.right-footer-fEmployer{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  vertical-align: top;
+  margin-top: 50px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+}
+
+.footer-logo-fEmployer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+  margin-right: 70px;
+}
+
+.footer-logo-left-fEmployer{
+  width: 200px;
+  border-radius: 300px;
+}
+
+.footer-logo-fEmployer>h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  color: antiquewhite;
+}
+
+.social-links-fEmployer{
+  margin-bottom: 30px;
+}
+
+.social-icon-fEmployer{
+  width: 50px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 50px;
+  transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+}
+
+.social-icon-fEmployer:hover{
+  transform: translateY(-3px);
+  box-shadow: 0px 1px 5px rgb(255, 255, 255);
+}
+
+.social-icon-fEmployer:active{
+  opacity: 0.8;
+}
+
+.copyright-fEmployer{
+  font-size: 15px;
+  margin-right: 150px;
+}
+
+.addemp{
+  margin-top: 200px;
+}
+
+
+/*Hero Starts from here*/
+
+
+
+.employer-hero{
+  margin-top: 100px;
+  width: 100vw;
+  height: 100%;
+}
+
+.employer-hero>h1{
+  margin-left: 100px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  color: #4d1d01;
+}
+
+.switch-page-fEmployer{
+  width: 100vw;
+  background-color: #5c31e6;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 400px;
+}
+
+.switched-div-fEmployer{
+ background-color: #e5e4e4;
+ min-height: 20px;
+ max-height: 20px;
+ border-radius: 10px;
+ box-shadow: inset 1px 1px 7px rgb(54, 54, 54);
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 18px;    
+}
+
+.p1-fEmployer{
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.p1-fEmployer:hover{
+  color:#ff5e00;
+}
+
+.p1-fEmployer::after{
+  content: '';
+  width: 0%;
+  height: 3px;
+  background: #ff5e00;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: width 0.2s;
+}
+
+.p1-fEmployer:hover::after{
+  width: 100%;
+}
+
+.p2-fEmployer{
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.p2-fEmployer:hover{
+  color:#ff5e00;
+}
+
+.p2-fEmployer::after{
+  content: '';
+  width: 0%;
+  height: 3px;
+  background: #ff5e00;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: width 0.2s;
+}
+
+.p2-fEmployer:hover::after{
+  width: 100%;
+}
+
+.switch-page-fEmployer>div{
+  padding: 10px 50px;
+}
+
+.striped-table-fEmployer{
+  width: 100vw;
+  border-collapse: collapse;
+  margin-bottom: 100px;
+}
+
+.striped-table-fEmployer>thead{
+  background-color: #ffffffbd;
+  height: 45px;
+  border-bottom: 2px solid rgb(164, 164, 164);
+  color:rgb(74, 74, 74);
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.striped-table-fEmployer>tbody{
+  background-color: rgba(231, 230, 230, 0.739);
+  font-family:sans-serif;
+  color:rgb(54, 54, 54)
+}
+
+.striped-table-fEmployer>tbody>tr{
+  height: 45px;
+  border-bottom: 1px solid rgb(164, 164, 164);
+}
+
+.striped-table-fEmployer>tbody>tr>td{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.muted-button-fEmployer{
+  padding: 0;
+  height: 23px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+}
+
+.muted-button-fEmployer:hover{
+  transform: translateY(-1px);
+  box-shadow: 1px 1px 1px #1C1C1C;
+}
+
+.muted-button-fEmployer:active{
+  opacity: 0.7;
+}
+
+.edit-logo-fEmployer{
+  margin: 0px;
+  width:100%;
+  height: 20px;
+}
+
+.delete-logo-fEmployer{
+  margin: 0px;
+  width:100%;
+  height: 20px;
+}
+
+.round-button-fEmployer{
+  margin-bottom: 50px;
+  margin-left: 100px;
+  padding: 15px 40px;
+  background-color: #194CA3;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  transition: box-shadow 0.2s, opacity 0.2s, transform 0.2s;
+  cursor: pointer;
+}
+
+.round-button-fEmployer:hover{
+  transform: translateY(-3px);
+  box-shadow: 0px 3px 8px rgb(54,54,54);
+}
+
+.round-button-fEmployer:active{
+  opacity: 0.8;
+}
+
+.small-container-fEmployer{
+  margin-top: 0px;
+}
+
+.small-container-fEmployer>form{
+  display: flex;
+  flex-direction: column;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.small-container-fEmployer>form>h1{
+  font-size: 40px;
+  color:rgb(42, 32, 32);
+  margin-bottom: 30px;
+}
+
+.small-container-fEmployer>form>label{
+  color:rgb(42, 32, 32);
+  font-size: 17px;
+  margin-left: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.small-container-fEmployer>form>input{
+  height: 45px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border-width: 1px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: #3a3a3a;
+}
+
+.add-button-fEmployer{
+  margin-bottom: 50px;
+  margin-right: 50px;
+  padding: 15px 40px;
+  background-color: #194CA3;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  transition: box-shadow 0.2s, opacity 0.2s, transform 0.2s;
+  cursor: pointer;
+}
+
+.add-button-fEmployer:hover{
+  transform: translateY(-3px);
+  box-shadow: 0px 3px 8px rgb(54,54,54);
+}
+
+.add-button-fEmployer:active{
+  opacity: 0.8;
+}
+
+.cancel-button-fEmployer{
+  margin-bottom: 50px;
+  padding: 15px 40px;
+  background-color: #194CA3;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  transition: box-shadow 0.2s, opacity 0.2s, transform 0.2s;
+  cursor: pointer;
+}
+
+.cancel-button-fEmployer:hover{
+  transform: translateY(-3px);
+  box-shadow: 0px 3px 8px rgb(54,54,54);
+}
+
+.cancel-button-fEmployer:active{
+  opacity: 0.8;
+}
+
+.update-button-fEmployer{
+  margin-bottom: 50px;
+  margin-right: 50px;
+  padding: 15px 40px;
+  background-color: #194CA3;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  transition: box-shadow 0.2s, opacity 0.2s, transform 0.2s;
+  cursor: pointer;
+}
+
+.update-button-fEmployer:hover{
+  transform: translateY(-3px);
+  box-shadow: 0px 3px 8px rgb(54,54,54);
+}
+
+.update-button-fEmployer:active{
+  opacity: 0.8;
+}

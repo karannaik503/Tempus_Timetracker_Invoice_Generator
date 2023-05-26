@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(240, 249, 249) ;
+  max-width: 100vh;
+  width: 100%;
+  height: 100%;
+  max-width: 100vw;
+  max-height: 100vw;  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html{
+  scroll-behavior: smooth; 
+}
+
+.navbar-logout{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: fixed;
+  z-index: 10;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background: linear-gradient(to right, #194CA3, #5c31e6);
+  height: 80px;
+  box-shadow: 0px 2px 5px rgba(57, 57, 57, 0.832);
+  width: 100%;
+}
+
+.left-section-logout{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.logo-logout{
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.left-section-logout>a>h2{
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+}
+
+.left-section-logout>a{
+  text-decoration: none;
+}
+
+.right-section-logout{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  padding-right: 100px;
+}
+
+.nav-list-logout{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  list-style: none;
+}
+
+.nav-item-logout>a{
+  font-size: 18px;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.15s;
+  color: white;
+}
+
+.nav-item-logout>a:hover{
+  color: #fe6811;
+}
+
+
+.nav-item-logout>a::after{
+  content: '';
+  width: 0%;
+  height: 3px;
+  background: #ff5e00;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: width 0.15s;
+}
+
+.nav-item-logout>a:hover::after{
+  width: 100%;
+}
+
+#footer{
+  background-color: #1C1C1C;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: space-between;        
+  gap: 100px;
+  padding: 0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ;
+}
+
+.contact-info-logout{
+  display:flex;
+  flex-direction: column;
+  gap: 0px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.contact-info-logout>h2{
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.contact-info-logout>h4{
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.contact-info-logout>p{
+  margin-bottom: 30px;
+  margin-bottom: 18px;
+}
+
+.right-footer-logout{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  vertical-align: top;
+  margin-top: 50px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+}
+
+.footer-logo-logout{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+  margin-right: 70px;
+}
+
+.footer-logo-left-logout{
+  width: 200px;
+  border-radius: 300px;
+}
+
+.footer-logo-logout>h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  color: antiquewhite;
+}
+
+.social-links-logout{
+  margin-bottom: 30px;
+}
+
+.social-icon-logout{
+  width: 50px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 50px;
+  transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+}
+
+.social-icon-logout:hover{
+  transform: translateY(-3px);
+  box-shadow: 0px 1px 5px rgb(255, 255, 255);
+}
+
+.social-icon-logout:active{
+  opacity: 0.8;
+}
+
+.copyright-logout{
+  font-size: 15px;
+  margin-right: 150px;
+}
+
+.logout-page{
+  height: 700px;
+  width: 100vw;
+}
+
+.logout-container{
+  max-width: 70%;
+  margin-left: 15%;
+  height: 500px;
+  background: linear-gradient(to right, #194ca3, #5c31e6);
+  border-radius: 50px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+  padding: 30px;
+}
+
+.logout-container>h1{
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tick-mark-logout{
+  border-radius: 200px;
+  width: 300px;
+  box-shadow: 1px 4px 10px rgb(16, 207, 12);
+}

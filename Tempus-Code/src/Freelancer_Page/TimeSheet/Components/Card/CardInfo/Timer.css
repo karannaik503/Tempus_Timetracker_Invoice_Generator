@@ -1,0 +1,78 @@
+.main-section-fTimeSheet {
+    background: transparent;
+    max-width: 600px;
+    width: 400px;
+    height: 250px;
+    margin: 30px auto;
+    background-color: #fff;
+  }
+  
+  .clock-holder-fTimeSheet {
+    width: 100%;
+    position: relative;
+  }
+  
+  
+  .stopwatch-fTimeSheet {
+    padding: 60px 0px;
+    text-align: center;
+  }
+  
+  .stopwatch-fTimeSheet span{
+    background: #05eeeb;
+    color: #fff;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 22px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 70px;
+  }
+  
+  .stopwatch-fTimeSheet .stopwatch-btn-fTimeSheet {
+    background: linear-gradient(to right, #194CA3, #5c31e6);
+    margin-top: 30px;
+    margin-left: 5px;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 150px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgb(0,0,0);
+    transition: transform 0.2s;
+  }
+  .stopwatch-fTimeSheet .stopwatch-btn-red-fTimeSheet{
+    border: none;
+    color: #C85454;
+    box-shadow: 0px 2px 5px rgb(0,0,0);
+    transition: transform 0.2s;
+  }
+  .stopwatch-fTimeSheet .stopwatch-btn-yel-fTimeSheet{
+    border: none;
+    color: #FFC900;
+    box-shadow: 0px 2px 5px rgb(0,0,0);
+    transition: transform 0.2s;
+  }
+  
+  .stopwatch-fTimeSheet .stopwatch-btn-gre-fTimeSheet{
+    border: none;
+    color: #fff;
+  }
+  
+  .stopwatch-fTimeSheet .stopwatch-btn-red-fTimeSheet:hover {
+    background: #C85454;
+    border: none;
+    color: #fff;
+    transform: translateY(-3px);
+  }
+  .stopwatch-fTimeSheet .stopwatch-btn-yel-fTimeSheet:hover {
+    background: #FFC900;
+    border: none;
+    color: #fff;
+    transform: translateY(-3px);
+  }
+  .stopwatch-fTimeSheet .stopwatch-btn-gre-fTimeSheet:hover {
+    border: none;
+    transform: translateY(-3px);
+  }

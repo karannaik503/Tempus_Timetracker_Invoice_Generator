@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar-fhome{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: fixed;
+  justify-content: space-between;
+  z-index: 10;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background: linear-gradient(to right, #194CA3, #5c31e6);
+  height: 80px;
+  box-shadow: 0px 2px 5px rgba(57, 57, 57, 0.832);
+  width: 100%;
+  gap: 1000px;
+}
+
+.left-section-fhome{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.logo-fhome{
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.left-section-fhome>a>h2{
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+}
+
+.left-section-fhome>a{
+  text-decoration: none;
+}
+
+.right-section-fhome{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  padding-top: 20px;
+}
+
+.nav-list-fhome{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.nav-item-fhome>a{
+  font-size: 18px;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.15s;
+  color: white;
+}
+
+.nav-item-fhome>a:hover{
+  color: #fe6811;
+}
+
+.nav-item-fhome>a::after{
+  content: '';
+  width: 0%;
+  height: 3px;
+  background: #ff5e00;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: width 0.15s;
+}
+
+.nav-item-fhome>a:hover::after{
+  width: 100%;
+}
+
+.profile-container-fhome{
+  max-width: 55%;
+}
+
+.profile-icon-fhome{
+  width: 55%;
+  max-width: 55%;
+  margin-bottom: 12px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: opacity 0.2s, box-shadow 0.2s;
+}
+
+.profile-icon-fhome:hover{
+  box-shadow: 1px 1px 5px #ffffff;
+}
+
+.profile-icon-fhome:active{
+  opacity: 0.8;
+}
+
+.hero-fhome{
+  margin-top: 150px;
+  width: 100vw;
+  height: 100%;
+}
+
+.hero-fhome>h1{
+  font-size: 50px;
+  color: #021f51;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 50px;
+}
+
+.hero-fhome>p{
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  max-width: 800px;
+  margin-left: 25%;
+  color: #a44107;
+}
+
+.hero-fhome>h3{
+  margin-left: 25%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.mode-options-fhome{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 160px;
+}
+
+.mode-options-fhome>button{
+  background: linear-gradient(to right, #194CA3, #5c31e6);  
+  height: 150px;
+  width: 300px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0px 3px 10px rgb(31, 31, 31);
+  color: white;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.mode-options-fhome>button:hover{
+  transform: translateY(-5px);
+}
+
+.mode-options-fhome>button:active{
+  opacity: 0.8;
+}
+
+.fhome-button{
+  background: linear-gradient(to right, #194CA3, #5c31e6);  
+  height: 150px;
+  width: 300px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0px 3px 10px rgb(31, 31, 31);
+  color: white;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.fhome-button:hover{
+  transform: translateY(-5px);
+}
+
+.fhome-button:active{
+  opacity: 0.8;
+}
+
+#footer-fhome{
+  background-color: #1C1C1C;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: space-between;        
+  gap: 100px;
+  padding: 0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ;
+}
+
+.contact-info-fhome{
+  display:flex;
+  flex-direction: column;
+  gap: 0px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.contact-info-fhome>h2{
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.contact-info-fhome>h4{
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.contact-info-fhome>p{
+  margin-bottom: 30px;
+  margin-bottom: 18px;
+}
+
+.right-footer-fhome{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  vertical-align: top;
+  margin-top: 50px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+}
+
+.footer-logo-fhome{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+  margin-right: 70px;
+}
+
+.footer-logo-left-fhome{
+  width: 200px;
+  border-radius: 300px;
+}
+
+.footer-logo-fhome>h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  color: antiquewhite;
+}
+
+.social-links-fhome{
+  margin-bottom: 30px;
+}
+
+.social-icon-fhome{
+  width: 50px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 50px;
+  transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+}
+
+.social-icon-fhome:hover{
+  transform: translateY(-3px);
+  box-shadow: 0px 1px 5px rgb(255, 255, 255);
+}
+
+.social-icon-fhome:active{
+  opacity: 0.8;
+}
+
+.copyright-fhome{
+  font-size: 15px;
+  margin-right: 150px;
+}
