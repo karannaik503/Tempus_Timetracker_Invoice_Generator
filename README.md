@@ -14,7 +14,8 @@ Find the word doc file in the repository to get more info about the project.
 
 The repository contains the following:
 1) Feasibility Study Report
-2) Final Project Report
-3) Sequence Diagrams
-4) Class Diagrams
-5) PPT Presentation
+2) Project Code 
+3) Final Project Report
+4) Sequence Diagrams
+5) Class Diagrams
+6) PPT Presentation
